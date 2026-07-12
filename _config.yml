@@ -1,7 +1,7 @@
 # Site Settings
 title: "BusiSoft Studios"
 description: "Unified business systems architecture integrating creative, automation, and data intelligence."
-url: "https://github.io"
+url: "https://busisoftstudios.github.io"
 baseurl: ""
 
 # Build Settings
@@ -25,3 +25,4 @@ exclude:
 # Sass Compilation
 sass:
   style: compressed
+
