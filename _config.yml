@@ -1,36 +1,27 @@
-title: BusiSoft Studios
-<meta name="description" content="BusiSoft Studios — Unified business systems architecture integrating creative, automation, and data intelligence.">
-<meta name="keywords" content="BusiSoft, business systems, automation, creative engine, data spine, integration gateway">
-<meta property="og:title" content="BusiSoft Studios">
-<meta property="og:description" content="The Future of Business Systems Lives Here.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://equilibriumnexus99.github.io/BusiSoftStudios.github.io/">
-<meta property="og:image" content="https://equilibriumnexus99.github.io/BusiSoftStudios.github.io/assets/busisoft-preview.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+# Site Settings
+title: "BusiSoft Studios"
+description: "Unified business systems architecture integrating creative, automation, and data intelligence."
+url: "https://github.io"
+baseurl: ""
 
-description: The Future of Business Systems Lives Here.
+# Build Settings
 theme: minima
 markdown: kramdown
+
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+# Sass Compilation
 sass:
   style: compressed
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      seo:
-        type: "website"
-        name: "BusiSoft Studios"
-        description: "Unified business systems architecture integrating creative, automation, and data intelligence."
