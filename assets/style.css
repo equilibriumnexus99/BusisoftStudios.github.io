@@ -1,0 +1,16 @@
+body {
+  background-color: #0b1a2a;
+  color: #e0f7fa;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2 {
+  color: #00bcd4;
+  text-shadow: 0 0 10px #00bcd4;
+}
+a {
+  color: #80deea;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
